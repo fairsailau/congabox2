@@ -1,0 +1,44 @@
+{
+  "Account": {
+    "properties": {
+      "Name": {"type": "string"},
+      "BillingStreet": {"type": "string"},
+      "BillingCity": {"type": "string"},
+      "BillingState": {"type": "string"},
+      "BillingPostalCode": {"type": "string"}
+    }
+  },
+  "Contact": {
+    "properties": {
+      "FirstName": {"type": "string"},
+      "LastName": {"type": "string"},
+      "Email": {"type": "string"},
+      "Phone": {"type": "string"}
+    }
+  },
+  "Contract": {
+    "properties": {
+      "ContractNumber": {"type": "string"},
+      "StartDate": {"type": "date"},
+      "EndDate": {"type": "date"},
+      "ContractAmount__c": {"type": "number"}
+    }
+  },
+  "Product2": {
+    "properties": {
+      "Name": {"type": "string"}
+    }
+  },
+  "OrderItem": {
+    "properties": {
+      "Quantity": {"type": "number"},
+      "UnitPrice": {"type": "number"},
+      "TotalPrice": {"type": "number"}
+    }
+  },
+  "User": {
+    "properties": {
+      "Name": {"type": "string"}
+    }
+  }
+}

@@ -7,7 +7,9 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
-# Import utility modules
+# Import utility modules with relative imports
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from utils.docx_parser import DocxParser
 from utils.query_parser import QueryParser
 from utils.schema_parser import SchemaParser

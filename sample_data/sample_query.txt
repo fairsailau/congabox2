@@ -1,0 +1,21 @@
+SELECT 
+    Account.Name, 
+    Account.BillingStreet, 
+    Account.BillingCity, 
+    Account.BillingState, 
+    Account.BillingPostalCode,
+    Contact.FirstName, 
+    Contact.LastName, 
+    Contact.Email, 
+    Contact.Phone,
+    Contract.ContractNumber, 
+    Contract.StartDate, 
+    Contract.EndDate, 
+    Contract.ContractAmount__c,
+    Product2.Name,
+    OrderItem.Quantity, 
+    OrderItem.UnitPrice,
+    OrderItem.TotalPrice,
+    User.Name
+FROM Contract
+WHERE Contract.Id = '12345'
